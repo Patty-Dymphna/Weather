@@ -1,0 +1,120 @@
+.container{
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+.weather-app-wrapper {
+    margin: 20px;
+    font-family: poppins;
+  }
+  .weather-app {
+    border: 1px solid paleturquoise;
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 600px;
+    font-weight: 500;
+    color: #424a55;
+    margin: 15px 0 10px;
+    box-shadow: 5px 5px 15px #888888;
+  }
+  .search-engine {
+    max-width: 600px;
+  }
+  
+  .search-city-input,
+  .submit-button {
+    border: 1px solid #b8cbe8c8;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    background-color: #b0c4de27;
+    
+  }
+  .submit-button {
+    background-color: paleturquoise;
+    transition: all 100ms ease-in-out;
+  }
+  .submit-button:hover {
+    border-color: #96a6be;
+    color: #ffffff;
+    background-color: #96a6be;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px 0px 10px;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .datetime {
+    font-weight: 600;
+  }
+  .current-icon {
+    position: relative;
+    top: -13px;
+  }
+  
+  .current-temp {
+    font-size: 50px;
+    padding: 0 5px 0 20px;
+  }
+  .current,
+  .units {
+    font-size: 18px;
+    position: relative;
+    top: -25px;
+  }
+  
+  .forecast {
+    text-align: center;
+    position: relative;
+    top: -10px;
+  }
+  .forecast-day {
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    bottom: -10px;
+  }
+  .forecast-icon {
+    width: 70px;
+    position: relative;
+    left: -3px;
+  }
+  .forecast-temperature {
+    font-size: 13px;
+    position: relative;
+    top: -3px;
+  }
+  .forecast-temp-min {
+    opacity: 0.65;
+  }
+  
+  .footer-link:hover,
+  .footer-link,
+  a,
+  a:hover {
+    color: #424a55;
+    opacity: 0.65;
+    transition: all 150ms ease-in-out;
+  }
+  .active,
+  .active:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: #424a55;
+    cursor: default;
+  }
+  .footer {
+    color: #424a55;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  
